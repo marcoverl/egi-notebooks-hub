@@ -20,7 +20,7 @@ COPY 401.html /usr/local/share/jupyterhub/templates/403.html
 
 COPY egi-notebooks.png /usr/local/share/jupyterhub/static/images/jupyter.png
 COPY notebooks-logo.png /usr/local/share/jupyterhub/static/images/notebooks-logo.png
-COPY infn-pd.jpg /usr/local/share/jupyterhub/static/images/infn-pd.jpg
+COPY infn-pd.png /usr/local/share/jupyterhub/static/images/infn-pd.png
 
 ARG NB_USER=jovyan
 USER ${NB_USER}
